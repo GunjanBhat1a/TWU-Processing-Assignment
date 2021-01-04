@@ -7,6 +7,7 @@ public class BallMovement extends PApplet {
     public static final int WIDTH = 640;
     public static final int HEIGHT = 600;
     public static final int Y_SCALE = HEIGHT / 5;
+    public static final int INITIAL_X = 4;
     public static final int CAPACITY = 4;
 
     List<Ball> balls = new ArrayList<>(CAPACITY);
@@ -21,7 +22,7 @@ public class BallMovement extends PApplet {
     public void setup() {
 
         for (int i = 1; i <= CAPACITY; i++) {
-            balls.add(new Ball(0, getPositionY(i), i));
+            balls.add(new Ball(INITIAL_X, getPositionY(i), i));
         }
     }
 
