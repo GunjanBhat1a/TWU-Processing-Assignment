@@ -23,10 +23,10 @@ public class BallMovement extends PApplet {
     @Override
     public void setup() {
 
-        ball1 = new Ball(0, Y_SCALE * 1, SPEED_FACTOR1);
-        ball2 = new Ball(0, Y_SCALE * 2, SPEED_FACTOR2);
-        ball3 = new Ball(0, Y_SCALE * 3, SPEED_FACTOR3);
-        ball4 = new Ball(0, Y_SCALE * 4, SPEED_FACTOR4);
+        ball1 = new Ball(0, Y_SCALE * SPEED_FACTOR1, SPEED_FACTOR1);
+        ball2 = new Ball(0, Y_SCALE * SPEED_FACTOR2, SPEED_FACTOR2);
+        ball3 = new Ball(0, Y_SCALE * SPEED_FACTOR3, SPEED_FACTOR3);
+        ball4 = new Ball(0, Y_SCALE * SPEED_FACTOR4, SPEED_FACTOR4);
 
     }
 
