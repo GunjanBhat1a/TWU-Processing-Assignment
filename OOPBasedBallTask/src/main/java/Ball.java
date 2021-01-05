@@ -1,3 +1,5 @@
+package twu.task.processing;
+
 public class Ball {
 
     public static final int DIAMETER = 10;
