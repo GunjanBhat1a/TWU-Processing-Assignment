@@ -1,3 +1,5 @@
+package  twu.task.processing;
+
 import processing.core.PApplet;
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +16,7 @@ public class BallMovement extends PApplet {
 
     public static void main(String[] args) {
 
-        PApplet.main("BallMovement", args);
+        PApplet.main("twu.task.processing.BallMovement", args);
 
     }
 
