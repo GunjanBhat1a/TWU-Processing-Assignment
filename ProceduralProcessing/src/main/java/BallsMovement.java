@@ -6,6 +6,7 @@ public class BallsMovement extends PApplet{
     public static final int HEIGHT = 600;
     public static final int Y_SCALE = HEIGHT / 5;
     public static final int DIAMETER = 10;
+    public static final int NUMBER_OF_BALLS = 4;
     int x = 0;
 
     public static void main(String[] args) {
@@ -26,7 +27,7 @@ public class BallsMovement extends PApplet{
     @Override
     public void draw() {
 
-        for(int ballSpeed = 1; ballSpeed <= 4; ballSpeed++)
+        for(int ballSpeed = 1; ballSpeed <= NUMBER_OF_BALLS; ballSpeed++)
         {
             drawCircle(getPositionX(ballSpeed, x), getPositionY(ballSpeed, Y_SCALE));
         }
