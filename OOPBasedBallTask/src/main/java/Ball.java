@@ -19,7 +19,7 @@ public class Ball {
 
 
     public float getPositionY() {
-        return positionY;
+        return positionY * speed;
     }
 
 
