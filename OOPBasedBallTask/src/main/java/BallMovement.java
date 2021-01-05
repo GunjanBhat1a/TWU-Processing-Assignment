@@ -22,7 +22,7 @@ public class BallMovement extends PApplet {
     public void setup() {
 
         for (int i = 1; i <= CAPACITY; i++) {
-            balls.add(new Ball(INITIAL_X, getPositionY(i), i));
+            balls.add(new Ball(INITIAL_X, Y_SCALE, i));
         }
     }
 
