@@ -26,11 +26,6 @@ public class BallMovement extends PApplet {
         }
     }
 
-    private int getPositionY(int i) {
-        return Y_SCALE * i;
-    }
-
-
     @Override
     public void settings() {
         size(WIDTH, HEIGHT);
